@@ -44,12 +44,8 @@ function applyVersion(mode) {
   if (!button) return;
 
   if (mode === 'updated') {
-    button.id = 'submitBtnUpdated';
-    button.textContent = 'Sign In';
     rememberContainer.classList.remove('d-none');
   } else {
-    button.id = 'loginButton';
-    button.textContent = 'Login';
     rememberContainer.classList.add('d-none');
   }
 
